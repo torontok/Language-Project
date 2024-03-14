@@ -12,8 +12,9 @@ while($row = $query -> fetch_array())
 $template = array(
     'active_page' => basename($_SERVER['PHP_SELF']),
     'clave_publica'=> "EAPIIS",
-    'version' =>1.0,
+    'version' => "1.0",
     'desarrollador' => "Toronto",
-    'name' => "SIS UNAMBA"
+    'name' => "LANGUAGE",
+    'icono' => 'assets/images/icono.ico'
 );
 ?>
